@@ -19,3 +19,18 @@ C:\Users\luisg\OneDrive\Desktop\3º\Cuatri 1\Paradigmas y tecnicas de programaci
 C:\Users\luisg\OneDrive\Desktop\3º\Cuatri 1\Paradigmas y tecnicas de programacion\Practica 2\obj\Debug\net8.0\Practice1.dll
 C:\Users\luisg\OneDrive\Desktop\3º\Cuatri 1\Paradigmas y tecnicas de programacion\Practica 2\obj\Debug\net8.0\refint\Practice1.dll
 C:\Users\luisg\OneDrive\Desktop\3º\Cuatri 1\Paradigmas y tecnicas de programacion\Practica 2\obj\Debug\net8.0\Practice1.pdb
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\bin\Debug\net8.0\Practice1.exe
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\bin\Debug\net8.0\Practice1.deps.json
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\bin\Debug\net8.0\Practice1.runtimeconfig.json
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\bin\Debug\net8.0\Practice1.dll
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\bin\Debug\net8.0\Practice1.pdb
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\obj\Debug\net8.0\Practice1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\obj\Debug\net8.0\Practice1.AssemblyInfoInputs.cache
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\obj\Debug\net8.0\Practice1.AssemblyInfo.cs
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\obj\Debug\net8.0\Practice1.csproj.CoreCompileInputs.cache
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\obj\Debug\net8.0\Practice1.sourcelink.json
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\obj\Debug\net8.0\Practice1.dll
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\obj\Debug\net8.0\refint\Practice1.dll
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\obj\Debug\net8.0\Practice1.pdb
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\obj\Debug\net8.0\Practice1.genruntimeconfig.cache
+C:\Users\luisg\OneDrive\Desktop\3º\Cuatri1\Paradigmas\Practica2\obj\Debug\net8.0\ref\Practice1.dll

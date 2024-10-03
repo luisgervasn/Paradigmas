@@ -5,9 +5,9 @@
         private PoliceStation policeStation;
         private List<Taxi> taxisRegistered;
 
-        public City()
+        public City(PoliceStation police)
         {
-            policeStation = new PoliceStation();
+            policeStation = police;
             taxisRegistered = new List<Taxi>();
         }
 

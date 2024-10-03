@@ -2,32 +2,38 @@
 {
     class PoliceCar : Vehicle
     {
-        //constant string as TypeOfVehicle wont change allong PoliceCar instances
         private const string typeOfVehicle = "Police Car"; 
         private bool isPatrolling;
         private bool isPersecuting;
         private SpeedRadar speedRadar;
 
-        public PoliceCar(string plate) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, SpeedRadar radar=null) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             isPersecuting = false;
-            speedRadar = new SpeedRadar();
+            speedRadar = radar;
         }
 
         public void UseRadar(Vehicle vehicle)
+    {
+        if (isPatrolling)
         {
-            if (isPatrolling)
+            if (speedRadar != null)
             {
                 speedRadar.TriggerRadar(vehicle);
-                string meassurement = speedRadar.GetLastReading();
-                Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+                string measurement = speedRadar.GetLastReading();
+                Console.WriteLine(WriteMessage($"Triggered radar. Result: {measurement}"));
             }
             else
             {
-                Console.WriteLine(WriteMessage($"has no active radar."));
+                Console.WriteLine(WriteMessage("has no active radar."));
             }
         }
+        else
+        {
+            Console.WriteLine(WriteMessage($"Cannot use radar while not patrolling."));
+        }
+    }
 
         public bool IsPatrolling()
         {
@@ -62,10 +68,17 @@
 
         public void PrintRadarHistory()
         {
-            Console.WriteLine(WriteMessage("Report radar speed history:"));
-            foreach (float speed in speedRadar.SpeedHistory)
+            if (speedRadar != null) 
             {
-                Console.WriteLine(speed);
+                Console.WriteLine(WriteMessage("Report radar speed history:"));
+                foreach (float speed in speedRadar.SpeedHistory)
+                {
+                    Console.WriteLine(speed);
+                }
+            }
+            else
+            {
+                Console.WriteLine(WriteMessage("No radar available to show history."));
             }
         }
 

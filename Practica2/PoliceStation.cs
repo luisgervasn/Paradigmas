@@ -14,7 +14,7 @@
         public void RegisterPolice(PoliceCar policeCar)
         {
             policeCars.Add(policeCar);
-            Console.WriteLine($"Police car {policeCar} registered.");
+            Console.WriteLine($"Police car {policeCar.GetPlate()} registered.");
         }
 
         public void TriggerAlert(string vehiclePlate, PoliceCar reportingCar)
